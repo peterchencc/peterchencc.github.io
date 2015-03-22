@@ -14,25 +14,50 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
-    .wrapper{
-    background: url('http://placehold.it/1920x1080') no-repeat top center scroll;
+    .backg{
+    background: url('images/G0179920-xs.JPG') no-repeat;
+    background-size: 100% auto;
     }
+
+    .banner{
+      padding: 5% 0 5% 0;
+      color: #fff;
+      margin-left: 10%;
+    }
+
+    .mypic{
+    width: 50%;
+    border-radius:100%;
+    }
+    .
     .title{
-    background-color: #fff;
+    background-color: #6D8FD6;
     color: black;
     font-size: 40px;
     }
     .area{
-    background-color: blue;
+    background-color: #0B399A;
     color: #fff;
+    }
+    @media (min-width: 768px) {
+      .backg{
+      background: url('images/G0179920.JPG') no-repeat;
+      background-size: 100% auto;
+      }
+      .banner{
+      padding: 10% 0 5% 0;
+      color: #fff;
+      margin-left: 10%;
+      }
+
     }
     </style>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="container">
+    <div class="wrapper ">
+      <div class="container-fluid backg">
         <div class="row">
-          <nav class="navbar navbar-default" role="navigation">
+          <nav class="" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -57,15 +82,21 @@
             </nav>
           </div>
           <div class="row">
-            <h1 class="">Peter Chen</h1>
-            <h3>Programmer</h3>
+            <div class="col-md-4 col-xs-6 banner">
+              <div class="text-center">
+                <img src="images/mata.jpg"  alt="" class="mypic ">
+              </div>
+              <div class="banner-txt">
+                <h1>Peter Chen</h1>
+                <h3>Programmer</h3>
+                <p>coding is fun.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container-fluid text-center">
+        <div class="container-fluid ">
           <div class="row title">
-            <div class="col-md-12">
-              <strong>ABOUT ME</strong>
-            </div>
+            <p>About me</p>
           </div>
           <div class="row area">
             <div class="col-md-4" style="margin:0 10%">
