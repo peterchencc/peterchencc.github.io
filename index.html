@@ -20,7 +20,7 @@
     }
 
     .banner{
-      padding: 5% 0 5% 0;
+      padding: 15% 0 5% 0;
       color: #fff;
       margin-left: 10%;
     }
@@ -39,25 +39,28 @@
     background-color: #0B399A;
     color: #fff;
     }
+
     @media (min-width: 768px) {
       .backg{
       background: url('images/G0179920.JPG') no-repeat;
       background-size: 100% auto;
       }
-      .banner{
-      padding: 10% 0 5% 0;
-      color: #fff;
-      margin-left: 10%;
-      }
 
     }
+    .nav-right{
+
+margin-right:5%;
+}
+.navbar-brand{
+  margin-left:5%;
+}
     </style>
   </head>
   <body>
     <div class="wrapper ">
-      <div class="container-fluid backg">
+      <div class="container-fluid">
         <div class="row">
-          <nav class="" role="navigation">
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -70,7 +73,7 @@
             </div>
             
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse nav-right">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
@@ -81,8 +84,8 @@
               </div><!-- /.navbar-collapse -->
             </nav>
           </div>
-          <div class="row">
-            <div class="col-md-4 col-xs-6 banner">
+          <div class="row backg">
+            <div class="col-md-4 col-xs-6 banner ">
               <div class="text-center">
                 <img src="images/mata.jpg"  alt="" class="mypic ">
               </div>
